@@ -2,5 +2,5 @@ float div(int a, int b)
 {
 	if (b==0)
 		return 0;
-	return (float)a/b;
+	return (float)a/(float)b;
 }
