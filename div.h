@@ -1,5 +1,6 @@
 float div(int a, int b)
 {
-	//direct;
+	if (b==0)
+		return 0;
 	return a/b;
 }
